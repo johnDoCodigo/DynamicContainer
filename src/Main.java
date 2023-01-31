@@ -5,8 +5,6 @@ public class Main {
         System.out.println(dynamicContainer.numbers.length);
 
 
-        //DynamicContainer.
-
 
 
 

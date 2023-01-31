@@ -1,3 +1,4 @@
+
 public class DynamicContainer {
     int[] numbers ;
 
@@ -14,7 +15,6 @@ public class DynamicContainer {
         }
 
         private void printList() {
-            System.out.println("a tua prima");
         }
     }
 }
