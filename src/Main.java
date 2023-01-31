@@ -1,5 +1,14 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+
+        DynamicContainer dynamicContainer = new DynamicContainer();
+        System.out.println(dynamicContainer.numbers.length);
+
+
+        DynamicContainer.
+
+
+
+
     }
 }
