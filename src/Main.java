@@ -4,6 +4,13 @@ public class Main {
         DynamicContainer dynamicContainer = new DynamicContainer();
         System.out.println(dynamicContainer.numbers.length);
 
+        /*
+
+        OutterClass outterClass = new OutterClass();
+        OutterClass.InnerClass objectInner = outterClass.new InnerClass();
+
+         */
+
 
 
 
