@@ -2,18 +2,10 @@ public class Main {
     public static void main(String[] args) {
 
         DynamicContainer dynamicContainer = new DynamicContainer();
-        System.out.println(dynamicContainer.numbers.length);
+        DynamicContainer.Node node = dynamicContainer.new Node();
 
-        /*
-
-        OutterClass outterClass = new OutterClass();
-        OutterClass.InnerClass objectInner = outterClass.new InnerClass();
-
-         */
-
-
-
-
+        node.add(3);
+        System.out.println(dynamicContainer.numbers[4]);
 
     }
 }

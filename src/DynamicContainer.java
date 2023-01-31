@@ -5,16 +5,18 @@ public class DynamicContainer {
     public DynamicContainer() {
         this.numbers = new int [5];
     }
+
     public class Node {
-        private void add(int data) {
+        void add(int data) {
+            numbers[0] = data;
 
         }
 
-        private void remove(int data) {
-
+        void remove(int data2) {
         }
 
-        private void printList() {
+        void printList() {
         }
+
     }
 }
